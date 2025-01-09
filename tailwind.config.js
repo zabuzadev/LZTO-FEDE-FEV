@@ -2,6 +2,9 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js}",
+    "./gracias/**/*.{html,js}",
+    "./mlp-pf/**/*.{html,js}",
+    "./mlp-pq/**/*.{html,js}",
     "*.{html,js}"
   ],
   theme: {
