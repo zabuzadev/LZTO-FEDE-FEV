@@ -84,6 +84,13 @@
   background-repeat: no-repeat;
 }
 
+.bg-hero-agradece{
+  background-image: url('../images/agradecimento_bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 ._form-branding{
   display: none;
 }
