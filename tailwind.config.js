@@ -3,8 +3,9 @@ module.exports = {
   content: [
     "./src/**/*.{html,js}",
     "./gracias/**/*.{html,js}",
-    "./mlp-pf/**/*.{html,js}",
-    "./mlp-pq/**/*.{html,js}",
+    "./registro-mc/**/*.{html,js}",
+    "./registro-v1/**/*.{html,js}",
+    "./registro-v2/**/*.{html,js}",
     "*.{html,js}"
   ],
   theme: {
