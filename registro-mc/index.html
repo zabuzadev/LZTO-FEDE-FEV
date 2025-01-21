@@ -144,6 +144,7 @@
                 // Dispara o webhook com os dados do formulário
                 fetch('https://n8n.aesmkt.com.br/webhook/taller-fede-aes', {
                     method: 'POST',
+                    // mode: 'no-cors',
                     headers: {
                         'Content-Type': 'application/json'
                     },
@@ -153,7 +154,7 @@
                 .then(result => {
                     console.log('Webhook disparado com sucesso:', result);
                     // Redireciona para a página de agradecimento
-                    window.location.href = 'https://elmetodobnbgame.com/taller-grupo/';
+                    window.location.href = 'https://elmetodobnbgame.com/taller-grupo';
                 })
                 .catch(error => {
                     console.error('Erro ao disparar o webhook:', error);
