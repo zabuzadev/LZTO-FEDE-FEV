@@ -26,16 +26,16 @@
     
           <div class="text-center mb-8 relative w-full max-w-2xl">
             <div class="absolute left-0 right-0 top-1/2 h-[1px] bg-gray-100" > </div>   
-            <p class="text-gray-300 relative inline-block bg-black px-4 text-center">
+            <p class="text-gray-300 relative inline-block bg-black px-4 text-center text-xl font-bold">
               Taller Express en directo (y gratis)
               <br />
-              Jueves, 16 de enero, 6pm (Madrid, España)
+              Jueves, 23 de enero, 6pm (Madrid, España)
             </p>
           </div>
   
        
         <h1 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-8 max-w-4xl">
-          <span class="text-[#e97777]">cómo montar tu negocio de </span>
+          <span class="text-[#e97777]">Cómo montar tu negocio de </span>
           AirBnb desde cero
           <span class="text-[#e97777]"> (sin invertir en propiedades ni experiencia)</span>
         </h1>
@@ -64,7 +64,7 @@
                             </div> 
                         </div>
                         <div class="_button-wrapper _full_width">
-                            <button id="_form_1_submit" class="_submit2 font-bold bg-[#e97777] hover:bg-[#e96767] text-white py-3 rounded" type="submit">Sí, quiero registrarme</button>
+                            <button id="_form_1_submit" class="_submit2 font-bold bg-[#e97777] hover:bg-[#e96767] text-white py-3 rounded w-full" type="submit">Sí, quiero registrarme</button>
                         </div>
                         <div class="_clear-element"></div>
                     </div>
@@ -92,9 +92,9 @@
           
         </div>
 
-        <div class="mt-12 text-center max-w-3xl">
+        <div class="mt-12 text-center max-w-3xl text-xl">
           <p class="text-gray-300">
-            En un TALLER EXPRESS EN DIRECTO descubre los secretos para emprender en Airbnb sin invertir en propiedades y con el{' '}
+            En un TALLER EXPRESS EN DIRECTO descubre los secretos para emprender en Airbnb sin invertir en propiedades y con el
             <span class="text-white font-bold underline">
               método que te enseñaré paso a paso
             </span>
@@ -142,7 +142,7 @@
                 });
     
                 // Dispara o webhook com os dados do formulário
-                fetch('https://n8n.aesmkt.com.br/webhook/COLOCAR O LINK AQUI ', {
+                fetch('https://n8n.aesmkt.com.br/webhook/taller-fede-aes', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -153,7 +153,7 @@
                 .then(result => {
                     console.log('Webhook disparado com sucesso:', result);
                     // Redireciona para a página de agradecimento
-                    window.location.href = 'COLOCAR LINK AQUI DE AGRADECIMENTO';
+                    window.location.href = 'https://elmetodobnbgame.com/taller-grupo/';
                 })
                 .catch(error => {
                     console.error('Erro ao disparar o webhook:', error);
